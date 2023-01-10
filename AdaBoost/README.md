@@ -23,7 +23,7 @@ $$D_{1}=\left(w_{11},\dots,w_{1i},\dots,w_{1N}\right),w_{1i}=\dfrac{1}{N},i=1,2,
 
 (a) 使用具有权值分布$D_{m}$的训练数据集学习，得到基本分类器
 
-$G_{m}(x):\mathcal{X}\rightarrow\left\{+1,-1\right\}$
+$$G_{m}(x):\mathcal{X}\rightarrow\left\{+1,-1\right\}$$
 
 (b) 计算$G_{m}(x)$在训练数据集上的分类错误率
 
