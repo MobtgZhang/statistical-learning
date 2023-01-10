@@ -6,7 +6,7 @@
 ## 算法原理
 下面叙述Adaboost算法的基本原理。假设给定一个二类分类的训练数据集
 
-$$T=\left\{(x_{1},y_{1}),(x_{2},y_{2}),\dots,(x_{N},y_{N})\right\}$$
+$$T=\left\\{(x_{1},y_{1}),(x_{2},y_{2}),\dots,(x_{N},y_{N})\right\\}$$
 
 其中每个样本点是由实例与标记组成。实例$x_{i}\in\mathcal{X}\subseteq{\bm{R}^{n}}$，其中标记$y_{i}\in\mathcal{Y}=\left\{+1,-1\right\}$，$\mathcal{X}$是实例空间，$\mathcal{Y}$是标记集合。AdaBoost利用以下算法，从训练数据中学习一系列弱分类器或者基本分类器，并将这些若分类器线性组合成为一个强分类器。
 
@@ -22,7 +22,7 @@ $$D_{1}=\left(w_{11},\dots,w_{1i},\dots,w_{1N}\right),w_{1i}=\dfrac{1}{N},i=1,2,
 
 (a) 使用具有权值分布$D_{m}$的训练数据集学习，得到基本分类器
 
-$$G_{m}(x):\mathcal{X}\rightarrow\left\{+1,-1\right\}$$
+$$G_{m}(x):\mathcal{X}\rightarrow\left\\{+1,-1\right\\}$$
 
 (b) 计算$G_{m}(x)$在训练数据集上的分类错误率
 
