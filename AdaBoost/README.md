@@ -8,6 +8,7 @@
 
 $$T=\left\{(x_{1},y_{1}),(x_{2},y_{2}),\dots,(x_{N},y_{N})\right\}$$
 
+
 其中每个样本点是由实例与标记组成。实例$x_{i}\in\mathcal{X}\subseteq{\bm{R}^{n}}$，其中标记$y_{i}\in\mathcal{Y}=\left\{+1,-1\right\}$，$\mathcal{X}$是实例空间，$\mathcal{Y}$是标记集合。AdaBoost利用以下算法，从训练数据中学习一系列弱分类器或者基本分类器，并将这些若分类器线性组合成为一个强分类器。
 
 **输入：** 训练数据集$T=\left\{(x_{1},y_{1}),(x_{2},y_{2}),\dots,(x_{N},y_{N})\right\}$，其中$x_{i}\in\mathcal{X}\subseteq{\bm{R}^{n}},y_{i}\in\mathcal{Y}=\left\{+1,-1\right\}$;弱学习算法；
